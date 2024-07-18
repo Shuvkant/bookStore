@@ -1,5 +1,3 @@
-# Nodejs FES Template
-
 # Pre-requisites
 
 - Install [Node.js](https://nodejs.org/en/) version 8.0.0
@@ -34,4 +32,10 @@ npm start
 
 ```
 http://localhost:5173/
+```
+
+## Server is running on
+
+```
+http://localhost:3000/books
 ```
