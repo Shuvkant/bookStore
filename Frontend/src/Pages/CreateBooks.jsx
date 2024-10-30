@@ -77,4 +77,3 @@ const CreateBooks = () => {
 };
 
 export default CreateBooks;
-
