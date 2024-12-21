@@ -5,7 +5,11 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   server: {
     proxy: {
-      "/books": "https://bookstore-backend-fb6d.onrender.com",
+      "/books": {
+          target: "https://bookstore-backend-fb6d.onrender.com",
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/books/, "/books"), // Rewrite rule
+        }
     },
   },
   resolve: {
