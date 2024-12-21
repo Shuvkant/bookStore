@@ -16,7 +16,7 @@ app.use(cors());
 app.get("/", (request, response) => {
   return response
     .status(234)
-    .send("Welcome to MERN Stack tutorial shuvkant Chaudhary Phanait");
+    .send("Welcome to MERN Stack tutorial shuvkant Chaudhary");
 });
 
 app.use("/books", booksRoute);
