@@ -8,5 +8,8 @@ export default defineConfig({
       "/api": "http://localhost:3000",
     },
   },
+  resolve: {
+    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json'], // Add .jsx here
+  },
   plugins: [react()],
 });
